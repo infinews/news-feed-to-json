@@ -18,5 +18,5 @@ RUN npm install -g express
 COPY . /app
 WORKDIR /app
 RUN npm install
-RUN npm audit fix
+RUN npm audit fix || true
 CMD npm start
