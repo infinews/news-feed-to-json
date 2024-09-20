@@ -10,9 +10,9 @@ app.set('port', (process.env.PORT || 5000));
 
 var testing = [];
 /*FeedParser Test Code*/
-app.get('/healthcheck', (req, res) => {
-  res.send('200 OK ALIVE')
-})
+//app.get('/healthcheck', (req, res) => {
+//  res.send('200 OK ALIVE')
+//})
 
 
 app.get('/', function(req1,res1){
