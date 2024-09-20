@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - Dockerfile
+      - .github/workflows/*
 #    branches:
 #      - 'master'
 #      - 'main'
