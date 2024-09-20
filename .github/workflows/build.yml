@@ -8,6 +8,8 @@ on:
     paths:
       - Dockerfile
       - .github/workflows/*
+      - app.j*
+      - package.json
 #    branches:
 #      - 'master'
 #      - 'main'
